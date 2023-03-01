@@ -1,0 +1,8 @@
+git init 
+git add+文件
+git commit -m '文字'
+git log
+cd +文件名
+cd ..
+ls
+ls -a
