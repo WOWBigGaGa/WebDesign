@@ -19,9 +19,6 @@ p{
   color: mediumslateblue;
 }
 em {
-  font-family: "Cascadia Mono"; /* 注意双引号这个细节，想想原因 */
+  font-family: "Georgia, 'Times New Roman', Times, serif"; /* 注意双引号这个细节，想想原因 */
   color: deeppink;
-}
-em{
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
