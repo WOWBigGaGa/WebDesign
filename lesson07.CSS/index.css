@@ -1,0 +1,24 @@
+h1,h2{
+  font-family: Arial;
+  color: grey;
+}
+h1{
+  border-bottom: 1px solid red;
+}
+p{
+  color: mediumslateblue;
+}
+h1,h2{
+  font-family: Arial;
+  color: grey;
+}
+h1{
+  border-bottom: 1px solid red;
+}
+p{
+  color: mediumslateblue;
+}
+em {
+  font-family: "Georgia, 'Times New Roman', Times, serif"; /* 注意双引号这个细节，想想原因 */
+  color: deeppink;
+}
