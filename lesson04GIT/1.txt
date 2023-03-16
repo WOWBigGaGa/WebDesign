@@ -1,0 +1,7 @@
+git init 新增git本地仓库
+git add + 文件/. 添加修改过的文件
+git commit -m  '指今天对文档干了些什么' 向github传达今天对文档进行了什么修改
+git status 查看已经修改没有上传的文件
+git log 查看上传到git的历史记录
+git reset --hard +文件名前前四位，需与git log一同使用 相当于回档
+git config --global/local user.email/name "…" 编辑本地邮箱和姓名
