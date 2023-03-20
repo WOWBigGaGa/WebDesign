@@ -22,3 +22,20 @@ em {
   font-family: "Georgia, 'Times New Roman', Times, serif"; /* 注意双引号这个细节，想想原因 */
   color: deeppink;
 }
+html {
+  font-size: 16px; /* 设置根元素字体大小 */ 
+}
+
+h1 {
+  font-size: 2rem; /* 相对于根元素字体大小的 2 倍 */
+}
+
+p {
+  font-size: 1rem;
+}
+p {
+  font-size: 2em; 
+}
+h1 {
+font-size: 10vw; 
+}
