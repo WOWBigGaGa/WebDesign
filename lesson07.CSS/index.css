@@ -1,26 +1,16 @@
-h1,h2{
-  font-family: Arial;
-  color: grey;
-}
-h1{
-  border-bottom: 1px solid red;
-}
 p{
   color: mediumslateblue;
 }
 h1,h2{
   font-family: Arial;
-  color: grey;
+  color: rgb(231, 243, 127);
 }
 h1{
   border-bottom: 1px solid red;
-}
-p{
-  color: mediumslateblue;
 }
 em {
   font-family: "Georgia, 'Times New Roman', Times, serif"; /* 注意双引号这个细节，想想原因 */
-  color: deeppink;
+  color: rgb(20, 255, 243);
 }
 html {
   font-size: 16px; /* 设置根元素字体大小 */ 
@@ -38,4 +28,14 @@ p {
 }
 h1 {
 font-size: 10vw; 
+}
+body{
+	color: rgb(18,110,130);
+}
+body{
+	background-color: rgb(143,119,181);
+}
+
+a{
+text-decoration:none;
 }
