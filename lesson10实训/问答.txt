@@ -1,0 +1,8 @@
+<q> 和 <blockquote>
+q 标签会在文本的前后两端添加“”
+blockquote 文本前后会有缩进
+
+对比下划线
+border-bottom: thin dotted #888888;
+text-decoration：underline
+对比下划线的代码，border-bottom:……;会更好用，text-decoration：underline似乎不能更改线体粗细和颜色，而另一个可以
