@@ -9,7 +9,6 @@ body {
 	font-size: small;
 	font-family: Georgia, "Times New Roman";
 	line-height: 1.9em;
-  font-style: initial;
   color: #444444;
 }
 
@@ -32,4 +31,5 @@ h2 {
   background-color: #a7cece;
   padding: 25px; /* 新增内边距 */
   margin: 30px;  /* 新增外边距 */
+  font-style: italic;
 }
