@@ -1,0 +1,28 @@
+body {
+	font-size: small;
+	font-family: Georgia, "Times New Roman";
+	line-height: 1.9em;
+  font-style: initial;
+  color: #444444;
+}
+
+h1, h2 {
+	color: #007e7e; /* 将标题设置为一种青绿色，使他和 logo 更相合 */
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 1.3em;
+}
+
+.guarantee {
+  border-color: white;
+  border-width: 1px;
+  border-style: dashed;
+  background-color: #a7cece;
+  padding: 25px; /* 新增内边距 */
+  margin: 30px;  /* 新增外边距 */
+}
