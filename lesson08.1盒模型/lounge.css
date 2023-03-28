@@ -36,7 +36,6 @@ h2 {
   background-image: url(images/background.gif);/*添加背景图片*/
   background-repeat: no-repeat;/*设置背景图片不充复*/
   background-position: top left;/*设置图片在左上方*/
-  padding: 25px;
   padding-left: 80px;
   margin-right: 250px;
   border-top-right-radius: 2em;

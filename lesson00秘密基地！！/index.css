@@ -1,4 +1,4 @@
-@keyframes animated-border {
+@keyframes animated-border {/*关键帧说是，不知道什么东西，很神奇就是了,炫彩光边*/
     0% {
       box-shadow: 0 0 0 0 rgba(232, 19, 19, 0.4);
     }
@@ -6,14 +6,143 @@
        box-shadow: 0 0 0 20px rgba(43, 92, 218, 0);
     }
   }
-  .para1 {
+.para1 {
     animation: animated-border 1.5s infinite;
-    font-family: Arial;
-    font-size: 18px;
-    line-height: 30px;
+    font-family: 幼圆;
+    font-size: 24px;
+    line-height: 1.9em;
     font-weight: bold;
     color: rgb(125, 28, 28);
     border: 2px solid;
     border-radius: 10px;
-    padding: 15px;
-  }
+    padding: 10px;
+    margin: 45px;
+    text-align: center;/*div里不建议使用align所以在这里设置居中*/
+}
+
+/*
+.para2 {
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  color: rgb(255, 2, 95);
+  border: 40px solid transparent;
+  border-image: "../images/ttq.jfif";
+  border-image-slice: 60%;
+  border-image-width: 60px;
+  padding: 15px;
+}
+*/
+
+.para3 {/*蛇形……的边框*/
+  font-family: 幼圆;
+  font-size: 18px;
+  color: aquamarine;
+  text-align: center;
+  line-height: 1.9em;
+  font-weight: bold;
+  padding: 15px;
+  margin: 45px;
+  border: 10px dashed #FF5722;
+  background:
+  linear-gradient(to top, green, 10px, transparent 10px),
+  linear-gradient(to right, green, 10px, transparent 10px),
+  linear-gradient(to bottom, green, 10px, transparent 10px),
+  linear-gradient(to left, green, 10px, transparent 10px);
+  background-origin: border-box;
+}
+
+.para4 {/*渐变的，3d的，搞不懂的*/
+  font-family: 幼圆;
+    font-size: 18px;
+    line-height: 1.9em;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(169, 235, 84);
+    padding: 40px;
+    margin: 45px;
+    box-shadow:
+      inset #009688 0 0 0 5px,
+      inset #059c8e 0 0 0 1px,
+      inset #0cab9c 0 0 0 10px,
+      inset #1fbdae 0 0 0 11px,
+      inset #8ce9ff 0 0 0 16px,
+      inset #48e4d6 0 0 0 17px,
+      inset #e5f9f7 0 0 0 21px,
+      inset #bfecf7 0 0 0 22px
+}
+
+.para5 {/*带阴影的？没看出来*/
+  font-family: 幼圆;
+    font-size: 18px;
+    line-height: 1.9em;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(75, 19, 164);
+    padding: 40px;
+    margin: 45px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 15px rgb(207, 94, 235);
+}
+
+.para6 {/*说是带有阴影和边框，但我的评价是不如蛇形*/
+  font-family: 幼圆;
+    font-size: 18px;
+    line-height: 1.9em;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(243, 127, 196);
+    padding: 40px;
+    margin: 45px;
+    box-shadow: 0 0 0 10px rgb(124, 74, 74);
+    outline: dashed 10px #7bd0c7;
+}
+
+.para7 {/*老铁丑爆了*/
+  font-family: 幼圆;
+    font-size: 18px;
+    line-height: 1.9em;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(96, 96, 96);
+    padding: 40px;
+    margin: 45px;
+    box-shadow:
+      0 0 0 1px #009688,
+      0 0 0 5px #F44336,
+      0 0 0 9px #673AB7,
+      0 0 0 10px #009688;
+    outline: dashed 10px #009688;
+}
+
+.para8 {/*有点意思，*/
+  font-family: Arial;
+    font-size: 18px;
+    line-height: 1.9em;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(57, 33, 33);
+    padding: 40px;
+    margin: 45px;
+    box-shadow: 0 0 0 10px #009688;
+    border: 10px solid #009688;
+    outline: dashed 10px rgb(194, 248, 128);
+}
+
+.para9 {/*多重渐变*/
+  font-family: 幼圆;
+    font-size: 18px;
+    line-height: 1.9em;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(55, 91, 237);
+    padding: 40px;
+    margin: 45px;
+    background:
+      linear-gradient(to top,red, yellow, blue, transparent 10px),/*这个线性渐变从顶部开始。它从红色开始，过渡到黄色，然后过渡到蓝色*/
+      linear-gradient(to right, #c1ef8c, #6f9c3c 10px, transparent 10px),
+      linear-gradient(to bottom, #8bc34a, #416617 10px, transparent 10px),
+      linear-gradient(to left, #009688, #025048 10px, transparent 10px);
+  background-origin: border-box;
+}
