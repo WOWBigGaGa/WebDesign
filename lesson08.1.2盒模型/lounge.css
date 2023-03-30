@@ -41,3 +41,40 @@ h2 {
   border-top-right-radius: 2em;
   border-bottom-left-radius: 2em;
 }
+
+.footer{
+
+}
+
+@keyframes animated-border {/*关键帧说是，不知道什么东西，很神奇就是了,炫彩光边*/
+  0% {
+    box-shadow: 0 0 0 0 #a7cece;
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(43, 92, 218, 0);
+  }
+}
+.elixir {
+  animation: animated-border 1.5s infinite;
+  color: #444444;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	margin-left: 20px;
+  text-align: center;/*div里不建议使用align所以在这里设置居中*/
+	border-width: thin;
+	border-style: solid;
+	border-color: #007e7e;
+  width: 200px; /* width 属性允许指定内容区的宽度 */
+  background-image: url(images/cocktail.gif);
+	background-repeat: repeat-x;
+  line-height: 1;
+}
+
+.elixir h2{
+  color: black;
+}
+
+.elixir h3{
+  color: #d12c47;
+}
