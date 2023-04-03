@@ -1,0 +1,16 @@
+CSS 边框样式
+border-style 属性指定要显示的边框类型。
+
+允许以下值：
+
+dotted - 定义点线边框
+dashed - 定义虚线边框
+solid - 定义实线边框
+double - 定义双边框
+groove - 定义 3D 坡口边框。效果取决于 border-color 值
+ridge - 定义 3D 脊线边框。效果取决于 border-color 值
+inset - 定义 3D inset 边框。效果取决于 border-color 值
+outset - 定义 3D outset 边框。效果取决于 border-color 值
+none - 定义无边框
+hidden - 定义隐藏边框
+border-style 属性可以设置一到四个值（用于上边框、右边框、下边框和左边框）。
