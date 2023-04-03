@@ -79,3 +79,31 @@ h2 {
 .artist{
   font-weight: bold;
 }
+
+/* 未访问状态 */
+a:link {
+  color: lightgreen;
+}
+
+/* 已访问状态 */
+a:visited {
+  color: lightcoral;
+}
+
+/* 悬停状态 */
+a:hover {
+  color: lightgoldenrodyellow;
+}
+
+.elixir a:link {
+  color: #007e7e;
+}
+
+.elixir a:visited {
+  color: #333333;
+}
+
+.elixir a:hover {
+  background: #f88396;
+  color: #0d5353;
+}
