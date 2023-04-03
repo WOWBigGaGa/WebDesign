@@ -73,6 +73,7 @@ h2 {
 
 .cd{
   font-style: italic;
+  /* margin的上下是没有用的，width同样 */
 }
 
 .artist{
