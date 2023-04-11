@@ -1,47 +1,12 @@
-/*
-  body {
-    font-size: small;
-    font-family: Verdana， Helvetica， Arial;
-  }
-*/
-
-body {
-	font-size: small;
-	font-family: Georgia, "Times New Roman";
-	line-height: 1.7em;
-  color: #444444;
+.left {
+	margin-right: 10px;
 }
 
-h1, h2 {
-	color: #007e7e; /* 将标题设置为一种青绿色，使他和 logo 更相合 */
+.right {
+	margin-left: 20px;
 }
 
-h1 {
-	font-size: 1.5em;
-}
-
-h2 {
-	font-size: 1.3em;
-}
-
-.guarantee {
-  border-top-color: lightcoral;
-  border-bottom-color: lightsalmon;
-  border-width: 3.5px;
-  border-style: dashed;
-  background-color: #a7cece;
-  padding: 25px; /* 新增内边距 */
-  margin: 30px;  /* 新增外边距 */
-  font-style: italic;
-  background-image: url(images/background.gif);/*添加背景图片*/
-  background-position: top left;/*设置图片在左上方*/
-  padding: 25px;
-  padding-left: 80px;
-  margin-right: 250px;
-  border-radius: 650px;
-  margin-right: 650px;
-}
-
-.a{
-content: -25px;
+.ruler {
+	display: inline-block;
+	width: 30px;
 }
