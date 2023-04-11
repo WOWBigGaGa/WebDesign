@@ -1,0 +1,110 @@
+/*
+  body {
+    font-size: small;
+    font-family: Verdana， Helvetica， Arial;
+  }
+*/
+
+body {
+	font-size: small;
+	font-family: Georgia, "Times New Roman";
+	line-height: 1.9em;
+  color: #444444;
+}
+
+h1, h2 {
+	color: #007e7e; /* 将标题设置为一种青绿色，使他和 logo 更相合 */
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 1.3em;
+}
+
+.guarantee {
+  border: 3.5px dashed lightcoral;
+  padding: 25px; /* 新增内边距 */
+  margin: 30px;  /* 新增外边距 */
+  font-style: italic;
+  background:#a7cece url(images/background.gif) /*添加背景图片*/no-repeat /*设置背景图片不充复*/top left;/*设置图片在左上方*/
+  padding-left: 80px;
+  margin-right: 250px;
+  border-top-right-radius: 2em;
+  border-bottom-left-radius: 2em;
+}
+
+.footer{
+  font-size:    .5em;
+  text-align: center;
+  line-height: normal;/* normal 允许浏览器根据字体自行选择一个合适的行高 */
+  margin-top: 30px;
+}
+
+@keyframes animated-border {/*关键帧说是，不知道什么东西，很神奇就是了,炫彩光边*/
+  0% {
+    box-shadow: 0 0 0 0 #a7cece;
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(43, 92, 218, 0);
+  }
+}
+.elixir {
+  animation: animated-border 1.5s infinite;
+  color: #444444;
+  padding: 0 20px 20px 20px;
+	margin-left: 20px;
+  text-align: center;/*div里不建议使用align所以在这里设置居中*/
+	border:thin solid #007e7e;
+  width: 200px; /* width 属性允许指定内容区的宽度 */
+  background: url(images/cocktail.gif) repeat-x;
+  line-height: 1;
+  float:right;
+}
+
+.elixir h2{
+  color: black;
+}
+
+.elixir h3{
+  color: #d12c47;
+}
+
+.cd{
+  font-style: italic;
+  /* margin的上下是没有用的，width同样 */
+}
+
+.artist{
+  font-weight: bold;
+}
+
+/* 未访问状态 */
+a:link {
+  color: lightgreen;
+}
+
+/* 已访问状态 */
+a:visited {
+  color: lightcoral;
+}
+
+/* 悬停状态 */
+a:hover {
+  color: lightgoldenrodyellow;
+}
+
+.elixir a:link {
+  color: #007e7e;
+}
+
+.elixir a:visited {
+  color: #333333;
+}
+
+.elixir a:hover {
+  background: #f88396;
+  color: #0d5353;
+}
