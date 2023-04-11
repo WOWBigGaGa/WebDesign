@@ -37,10 +37,10 @@ h2 {
 }
 
 .footer{
-  font-size:    .5em;
-  text-align: center;
+  font-size: .5em;
   line-height: normal;/* normal 允许浏览器根据字体自行选择一个合适的行高 */
   margin-top: 30px;
+  text-align: center;
 }
 
 @keyframes animated-border {/*关键帧说是，不知道什么东西，很神奇就是了,炫彩光边*/
