@@ -26,3 +26,15 @@ div.block {
 .bottom {
 	margin-top: 20px;
 }
+
+.aa{
+	border: 2px solid pink;
+	margin-top: 140px;
+	background-color: aquamarine;
+}
+
+.bb{
+	border: 2px solid purple;
+	margin-top: 20px;
+	background-color: blue;
+}
