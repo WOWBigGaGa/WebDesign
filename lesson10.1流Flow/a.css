@@ -1,0 +1,28 @@
+.left {
+	margin-right: 10px;
+}
+
+.right {
+	margin-left: 20px;
+	float:right;
+}
+
+.ruler {
+	display: inline-block;
+	width: 30px;
+	height:20px;
+}
+
+div.block {
+	width: 45vw;
+	height: 20vh;
+	border: 2px solid black;
+}
+
+.top {
+	margin-bottom: 10px;
+}
+
+.bottom {
+	margin-top: 20px;
+}
