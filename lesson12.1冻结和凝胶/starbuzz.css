@@ -24,12 +24,12 @@ body {
   font-size:        105%;
   padding:          15px;
   margin:           0px 10px 10px 10px;
-  /* float:            right; */
-	position:         absolute;
+  float:            right;
+	/* position:         absolute;
 	top:              133px;
-	right:            200px;
+	right:            200px; */
 	width:            280px;
-  z-index:          100;
+  /* z-index:          100; */
 }
 
 .footer {
@@ -59,6 +59,7 @@ a:link {
   text-decoration:  none;
   border-bottom:    thin dotted #b76666;
 }
+
 a:visited {
   color:            #675c47;
   text-decoration:  none;
@@ -74,7 +75,7 @@ a:visited {
 	margin-right:     auto;
 }
 
-.ad{
+/* .ad{
 	position:         absolute;
 	top:              150px;
 	left:             100px;
@@ -82,4 +83,4 @@ a:visited {
 	height:           80px;
 	background-color: #ccbb00;
   z-index:          1;
-}
+} */
