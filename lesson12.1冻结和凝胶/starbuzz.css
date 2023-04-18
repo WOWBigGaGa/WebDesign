@@ -24,12 +24,12 @@ body {
   font-size:        105%;
   padding:          15px;
   margin:           0px 10px 10px 10px;
-  width:            280px;
   /* float:            right; */
 	position:         absolute;
-	top:              100px;
+	top:              133px;
 	right:            200px;
 	width:            280px;
+  z-index:          100;
 }
 
 .footer {
@@ -72,4 +72,14 @@ a:visited {
 	background-color: #675c47;
 	margin-left:      auto;
 	margin-right:     auto;
+}
+
+.ad{
+	position:         absolute;
+	top:              150px;
+	left:             100px;
+	width:            600px;
+	height:           80px;
+	background-color: #ccbb00;
+  z-index:          1;
 }
