@@ -11,6 +11,12 @@ body {
   height:           108px;
 }
 
+.drinks{
+  background-color: #efe5d0;
+  padding: 15px;
+  width: 20%;
+}
+
 .main {
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
