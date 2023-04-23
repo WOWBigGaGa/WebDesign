@@ -7,32 +7,35 @@ body {
 
 .header {
   background-color: #675c47;
-  margin:           10px;
+  margin:           -10px 10px;
   height:           108px;
 }
 
-/* .drinks{
+.drinks{
   background-color: #efe5d0;
   padding: 15px;
   width: 20%;
-} */
+  display:          table-cell;
+  vertical-align:   top;
+}
 
 .main {
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
   padding:          15px;
-  margin:           0px 10px 10px 10px;
-  display: table-cell;
-  vertical-align: top;
+  margin:           -10px;
+  display:          table-cell;
+  vertical-align:   top;
 }
 
 .sidebar {
   background:       #efe5d0 url(images/background.gif) bottom right;
   font-size:        105%;
   padding:          15px;
-  margin:           0px 10px 10px 10px;
-  display: table-cell;
-  vertical-align: top;
+  margin:           -10px;
+  display:          table-cell;
+  vertical-align:   top;
+  width:            280px;
 }
 
 .footer {
@@ -40,7 +43,7 @@ body {
   color:            #efe5d0;
   text-align:       center;
   padding:          15px;
-  margin:           10px;
+  margin:           -10px 10px;
   font-size:        90%;
 }
 
