@@ -16,9 +16,9 @@ body {
   font-size:        105%;
   padding:          15px;
   margin:           0px 330px 10px 10px;
-	/* position:         relative;
+	position:         relative;
 	top:              0px;
-	left:           200px; */
+	left:             0.5px;
 }
 
 .sidebar {
@@ -27,9 +27,9 @@ body {
   padding:          15px;
   margin:           0px 10px 10px 10px;
   float:            right;
-	/* position:         absolute;
-	top:              133px;
-	right:            200px; */
+	position:         relative;
+	top:              0px;
+	right:            0.1px;
 	width:            280px;
   /* z-index:          100; */
 }

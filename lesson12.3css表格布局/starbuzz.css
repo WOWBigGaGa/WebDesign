@@ -15,10 +15,8 @@ body {
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
   padding:          15px;
-  margin:           0px 330px 10px 10px;
-	/* position:         relative;
-	top:              0px;
-	left:           200px; */
+  margin:           0px 10px 10px 10px;
+  display: table-cell;
 }
 
 .sidebar {
@@ -26,12 +24,7 @@ body {
   font-size:        105%;
   padding:          15px;
   margin:           0px 10px 10px 10px;
-  float:            right;
-	/* position:         absolute;
-	top:              133px;
-	right:            200px; */
-	width:            280px;
-  /* z-index:          100; */
+  display: table-cell;
 }
 
 .footer {
@@ -41,7 +34,6 @@ body {
   padding:          15px;
   margin:           10px;
   font-size:        90%;
-  clear:            right;   
 }
 
 h1 {
@@ -61,28 +53,16 @@ a:link {
   text-decoration:  none;
   border-bottom:    thin dotted #b76666;
 }
-
 a:visited {
   color:            #675c47;
   text-decoration:  none;
   border-bottom:    thin dotted #675c47;
 }
 
-.allcontent{
-  width:            800px;
-  padding-top:      5px;
-	padding-bottom:   5px;
-	background-color: #675c47;
-	margin-left:      auto;
-	margin-right:     auto;
+div.tableContainer {
+  display: table;
 }
 
-/* .ad{
-	position:         absolute;
-	top:              150px;
-	left:             100px;
-	width:            600px;
-	height:           80px;
-	background-color: #ccbb00;
-  z-index:          1;
-} */
+div.talbeRow {
+  display: table-row;
+}

@@ -1,0 +1,28 @@
+.grandparent {
+  width: 50vw;
+  height: 50vw;
+  padding: 10px;
+  background-color: dimgray;
+}
+.parent {
+  width: 30vw;
+  height: 20vw;
+  margin: 30px 10px;
+  background-color: lightsteelblue;
+  /* 为什么要给边框 */
+  border:thin solid lightsteelblue;
+}
+.child {
+  width: 10vw;
+  height: 5vw;
+  margin: 5px;
+  padding: 5px;
+  background-color:navy;
+  color: white;
+  position: relative;
+}
+.move {
+  position: relative;
+  top: -20px;
+  left: 20px;
+}
