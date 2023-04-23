@@ -17,6 +17,7 @@ body {
   padding:          15px;
   margin:           0px 10px 10px 10px;
   display: table-cell;
+  vertical-align: top;
 }
 
 .sidebar {
@@ -25,6 +26,7 @@ body {
   padding:          15px;
   margin:           0px 10px 10px 10px;
   display: table-cell;
+  vertical-align: top;
 }
 
 .footer {
@@ -61,6 +63,7 @@ a:visited {
 
 div.tableContainer {
   display: table;
+  border-spacing: 10px;
 }
 
 div.talbeRow {
