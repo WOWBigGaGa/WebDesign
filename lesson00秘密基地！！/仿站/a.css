@@ -1,3 +1,7 @@
+html{
+  font-family: sans-serif;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -20,6 +24,14 @@ ul.slides {
   margin: 575px 0 0 50px;
 }
 
+.word1{
+  margin: 475px 0 0 50px;
+}
+
+h1{
+  font-weight: 1000;
+}
+
 li.slide {
   margin: 0;
   padding: 0;
@@ -31,7 +43,7 @@ li.slide {
   display: flex;
   justify-content: left;
   align-items: left;
-  font-family: Helvetica;
+  font-family: D-DIN-Bold, Arial, Verdana, sans-serif;
   color: #fff;
   transition: .8s transform ease-in-out;
 }
@@ -74,6 +86,12 @@ li.slide {
   margin: 0 auto; */
   left: 309%;
 }
+
+audio {
+  width: 300px;
+  height: 54px;
+}
+
 
 input[type="radio"] {
   position: relative;
