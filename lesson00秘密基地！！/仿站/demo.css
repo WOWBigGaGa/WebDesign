@@ -1,0 +1,26 @@
+.card {
+  /* 设置div形状和阴影 */
+  width: 400px;
+  height: 80px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+
+  /* 居中并设置上边距 */
+  margin: auto;
+  margin-top: 15px;
+
+  /* 文字水平和垂直居中 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* 默认隐藏，显示过渡需0.5s */
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.card:active {
+  /* 鼠标点击时 */
+  background-color: whitesmoke;
+}
