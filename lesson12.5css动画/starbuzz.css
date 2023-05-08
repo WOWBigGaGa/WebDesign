@@ -98,3 +98,54 @@ div.tablerow{
 	background-position: 260px 0px; /* 向左偏移 */
 	float: right;
 }
+
+/* .award {
+	position: absolute;
+	top: 30px;
+	left: 45%;
+  transition: scale 0.5s ease;
+} */
+
+.award {
+	position: absolute;
+	top: 30px;
+	left: 45%;
+  transition: all 0.5s ease-in;
+}
+
+.award:hover {
+  transform: scale(999);
+}
+
+/* .coupon {
+	position: fixed;
+	top: 30px;
+	left: 55%;
+} */
+
+/* .coupon {
+	position: fixed;
+	top: 350px;
+	left: 0px;
+} */
+
+/* .coupon {
+	position: fixed;
+	top: 350px;
+	left: -90px;
+} */
+
+.coupon { 
+	position: fixed; 
+	top: 350px; 
+	left: -210px; /* 初始位置在左侧 */ 
+	transition: left 0.5s ease; /* 添加过渡效果 */
+}
+
+.coupon:hover {
+	left: 0px; /* 悬停时移动到 0px 的位置 */
+}
+
+.coupon a, img{
+	border: none;
+}

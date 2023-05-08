@@ -26,9 +26,9 @@ ul.slides {
   animation:word 1.2s 1;
 }
 @keyframes word{
-   0%{opacity: 0;}
-   100%{opacity: 1;}
-   0%{opacity: 0;}
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+  0%{opacity: 0;}
 }
 
 .word1{
@@ -50,9 +50,9 @@ li.slide {
   padding: 0;
   width: inherit;
   height: inherit;
-  position: absolute;
+  /* position: absolute;
   top: 0;
-  left: 0;
+  left: 0; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,30 +63,51 @@ li.slide {
 }
 
 .slide:nth-of-type(1) {
+  position: absolute;
+  overflow: hidden;
+  object-fit: cover;
+  margin: 0 auto;
+  /* margin-right: 16px; */
+  left: -102%;
+}
+
+.slide:nth-of-type(2) {
+  position: absolute;
   overflow: hidden;
   object-fit: cover;
   margin: 0 auto;
 }
 
-.slide:nth-of-type(2) {
+.slide:nth-of-type(3) {
+  position: absolute;
   overflow: hidden;
   object-fit: cover;
   margin: 0 auto;
   left: 102%;
 }
 
-.slide:nth-of-type(3) {
+.slide:nth-of-type(4) {
+  position: absolute;
   overflow: hidden;
   object-fit: cover;
   margin: 0 auto;
   left: 204%;
 }
 
-.slide:nth-of-type(4) {
+.slide:nth-of-type(5) {
+  position: absolute;
   overflow: hidden;
   object-fit: cover;
   margin: 0 auto;
   left: 306%;
+}
+
+.slide:nth-of-type(6) {
+  position: absolute;
+  overflow: hidden;
+  object-fit: cover;
+  margin: 0 auto;
+  left: 408%;
 }
 
 .slide:nth-of-type(1) img{
@@ -104,7 +125,7 @@ li.slide {
   position: relative;
   z-index: -1;
   transform: translatex(10px);
-  transform: translatey(40px);
+  transform: translatey(-30px);
   width: 112%;
   height: 112%;
 }

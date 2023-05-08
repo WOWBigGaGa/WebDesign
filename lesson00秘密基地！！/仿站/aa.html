@@ -1,33 +1,82 @@
 <!DOCTYPE html>
-<head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEMO 2</title>
     <link rel="stylesheet" href="demo.css">
-</head>
-<body>
-    <div class="card">
-        命里有时终须有，命里无时莫强求。
+  </head>
+  <body>
+    <div class="body-1">
+      <ul class="slides">
+        <input type="radio" id="control-1" name="control" checked>
+        <input type="radio" id="control-2" name="control">
+        <input type="radio" id="control-3" name="control">
+        <input type="radio" id="control-4" name="control">
+
+        <li class="slide">
+          <img src="../仿站/images/Training_01.jpg" alt="Watch crew prepare for launch day">
+          <div class="word">
+            <h1>Training</h1>
+            <p>Watch crew prepare for launch day</p>
+          </div>
+        </li>
+        <li class="slide">
+          <img src="../仿站/images/on-orbit.jpg" alt="Human Spaceflight">
+          <div class="word">
+            <h1>ON-ORBIT</h1>
+            <p>View Earth from 300 km up</p>
+          </div>
+        </li>
+        <li class="slide">
+          <img src="../仿站/images/launch-crop.jpg" alt="Listen as the crew prepares for liftoff">
+          <div class="word1">
+            <h1>LAUNCH</h1>
+            <p>Listen as the crew prepares for liftoff</p>
+            <!-- <audio controls="controls" height="100" width="100">
+            <source src="song.mp3" type="audio/mp3" />
+            <source src="song.ogg" type="audio/ogg" />
+            <embed height="100" width="100" src="song.mp3" />
+            </audio> -->
+            <audio controls="">
+              <source src="../仿站/images/Launch_Audio.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+        </li>
+        <li class="slide">
+          <img src="../仿站/images/Splashdown_Photo_01.jpg" alt="Test your limits">
+          <div class="word1">
+            <h1>SPLASHDOWN</h1>
+            <p>Listen to the crew prepare for landing</p>
+            <audio controls="">
+              <source src="../仿站/images/Splashdown_Audio_01.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+        </li>
+        <li class="slide">
+          <img src="../仿站/images/Training_01.jpg" alt="Watch crew prepare for launch day">
+          <div class="word">
+            <h1>Training</h1>
+            <p>Watch crew prepare for launch day</p>
+          </div>
+        </li>
+        <li class="slide">
+          <img src="../仿站/images/on-orbit.jpg" alt="Human Spaceflight">
+          <div class="word">
+            <h1>ON-ORBIT</h1>
+            <p>View Earth from 300 km up</p>
+          </div>
+        </li>
+
+        <div class="controls-visible">
+          <label for="control-1"></label>
+          <label for="control-2"></label>
+          <label for="control-3"></label>
+          <label for="control-4"></label>
+        </div>
+      </ul>
     </div>
-    <div class="card">
-        忍得一时之气，免得百日之忧。
-    </div>
-    <div class="card">
-        是非终日有，不听自然无。
-    </div>
-    <div class="card">
-        有意栽花花不发，无心插柳柳成荫。
-    </div>
-    <div class="card">
-        黑发不知勤学早，看看又是白头翁。
-    </div>
-    <div class="card">
-        人不劝不善，钟不打不鸣。
-    </div>
-    <div class="card">
-        知足常足，终身不辱。
-    </div>
-    <div class="card">
-        口说不如身逢，耳闻不如目见。
-    </div>
-</body>
- 
-<script src="demo.js"></script>
+
+  </body>
 </html>
