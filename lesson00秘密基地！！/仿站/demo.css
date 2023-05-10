@@ -6,6 +6,18 @@ body {
   background-color: black;
 }
 
+.body-1{
+  width: 1600 auto;
+  height: 1000 auto;
+  position: relative;
+}
+
+.body-2{
+  /* width: auto;
+  height: 1000 auto; */
+  margin-top: 1200px;
+}
+
 ul.slides {
   position: relative;
   width: 775px;
