@@ -141,8 +141,13 @@ body {
 }
 
 .Home-nr h6 {
+<<<<<<< HEAD
     color: white;
     /* background-color: white; */
+=======
+    color: black;
+    background-color: white;
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     display: inline;
     margin-left: 40%;
 }
@@ -192,8 +197,13 @@ input {
 
 input:nth-child(1) {
     position: absolute;
+<<<<<<< HEAD
     top: 9%;
     left: 61%;
+=======
+    top: 95%;
+    left: 38%;
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     z-index: 100;
 }
 
@@ -206,8 +216,13 @@ input:nth-child(2) {
 
 input:nth-child(3) {
     position: absolute;
+<<<<<<< HEAD
     top: 46%;
     left: 74%;
+=======
+    top: 95%;
+    left: 53%;
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     z-index: 100;
 }
 
@@ -368,18 +383,30 @@ input:nth-child(4) {
     line-height: 46px;
 }
 
+<<<<<<< HEAD
 .one-img {
+=======
+#one-img {
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     width: 200px;
     height: 200px;
     transform: translate(430px, 490px);
     transition: all 1.5s;
 }
 
+<<<<<<< HEAD
 .one-img img:hover {
     content: url("../static/img/destination-iss-hover.svg");
 }
 
 .img-two {
+=======
+#one-img img:hover {
+    content: url("../static/img/destination-iss-hover.svg");
+}
+
+#img-two {
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     width: 200px;
     height: auto;
     transform: translate(450px, 180px);
@@ -387,28 +414,45 @@ input:nth-child(4) {
     transition: all 1.5s;
 }
 
+<<<<<<< HEAD
 .img-two img:hover {
     content: url("../static/img/destination-dragon-hover.svg");
 }
 
 .img-three {
+=======
+#img-two img:hover {
+    content: url("../static/img/destination-dragon-hover.svg");
+}
+
+#img-three {
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     width: 200px;
     height: 200px;
     transform: translate(680px, -90px);
     transition: all 1.5s;
 }
 
+<<<<<<< HEAD
 .img-three img:hover {
     content: url("../static/img/destination-moon-hover.svg");
 }
 
 .img-font {
+=======
+#img-three img:hover {
+    content: url("../static/img/destination-moon-hover.svg");
+}
+
+#img-font {
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     width: 300px;
     height: 300px;
     transform: translate(1050px, -400px);
     transition: all 1.5s;
 }
 
+<<<<<<< HEAD
 .img-font img:hover {
     content: url("../static/img/destination-mars-hover.svg");
 }
@@ -426,6 +470,25 @@ input:nth-child(4) {
 }
 
 .Home-Astronaut:hover .img-font {
+=======
+#img-font img:hover {
+    content: url("../static/img/destination-mars-hover.svg");
+}
+
+.Home-Astronaut:hover #one-img {
+    transform: translate(460px, 470px);
+}
+
+.Home-Astronaut:hover #img-two {
+    transform: translate(480px, 160px);
+}
+
+.Home-Astronaut:hover #img-three {
+    transform: translate(710px, -70px);
+}
+
+.Home-Astronaut:hover #img-font {
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     transform: translate(1150px, -400px);
 }
 
@@ -517,7 +580,11 @@ input:nth-child(4) {
     border-bottom: 0.5px solid white;
 }
 
+<<<<<<< HEAD
 .Home-tabber-nav-tabber-title {
+=======
+#Home-tabber-nav-tabber-title {
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     width: 100%;
     height: 40px;
     position: relative;
@@ -551,7 +618,11 @@ input:nth-child(4) {
     left: 10%;
 }
 
+<<<<<<< HEAD
 .Home-Figure-rw-span-one {
+=======
+#Home-Figure-rw-span-one {
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     width: 20px;
     height: 20px;
     background-color: white;
@@ -565,7 +636,11 @@ input:nth-child(4) {
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 .Home-Figure-rw-span-one::after {
+=======
+#Home-Figure-rw-span-one::after {
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     content: "";
     width: 24px;
     height: 24px;
@@ -581,7 +656,11 @@ input:nth-child(4) {
 input:hover {
     background: blue !important;
 }
+<<<<<<< HEAD
 .Home-Figure-rw-span-one:checked+div{
+=======
+#Home-Figure-rw-span-one:checked+div{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     transition: all 1s;
     display: block;
 }
@@ -595,13 +674,21 @@ input:hover {
     display: none;
 }
 
+<<<<<<< HEAD
 .svg-one{
+=======
+#svg-one{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     width: 450px;
     height: 200px;
     position: relative;
     top: -5%;
 }
+<<<<<<< HEAD
 .Home-Figure-rw-p-one{
+=======
+#Home-Figure-rw-p-one{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     width: 260px;
     height: 80px;
     color: white;
@@ -610,7 +697,11 @@ input:hover {
     top: 86%;
 }
 
+<<<<<<< HEAD
 .Home-Figure-rw-span-two{
+=======
+#Home-Figure-rw-span-two{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     width: 20px;
     height: 20px;
     background-color: white;
@@ -619,11 +710,19 @@ input:hover {
     left: 74.5%;
     cursor: pointer;
 }
+<<<<<<< HEAD
 .Home-Figure-rw-span-two:checked+div{
     transition: all 1s;
     display: block;
 }
 .Home-Figure-rw-span-two::after{
+=======
+#Home-Figure-rw-span-two:checked+div{
+    transition: all 1s;
+    display: block;
+}
+#Home-Figure-rw-span-two::after{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     content: "";
     width: 24px;
     height: 24px;
@@ -644,7 +743,11 @@ input:hover {
     top: 42%;
     display: none;
 }
+<<<<<<< HEAD
 .Home-Figure-rw-p-two{
+=======
+#Home-Figure-rw-p-two{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     font-size: 30px;
     color: white;
     position: relative;
@@ -652,13 +755,21 @@ input:hover {
     left: 55%;
     width: 200px;
 }
+<<<<<<< HEAD
 .Home-Figure-rw-p-three{
+=======
+#Home-Figure-rw-p-three{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     color: white;
     position: relative;
     top: -90px;
     left: 5px;
 }
+<<<<<<< HEAD
 .Home-Figure-rw-span-three{
+=======
+#Home-Figure-rw-span-three{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     width: 20px;
     height: 20px;
     background-color: white;
@@ -667,10 +778,17 @@ input:hover {
     left: 55.5%;
     cursor: pointer;
 }
+<<<<<<< HEAD
 .Home-Figure-rw-span-three:checked +div{
     display: block;
 }
 .Home-Figure-rw-span-three::after{
+=======
+#Home-Figure-rw-span-three:checked +div{
+    display: block;
+}
+#Home-Figure-rw-span-three::after{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     content: "";
     width: 24px;
     height: 24px;
@@ -691,7 +809,11 @@ input:hover {
     display: none;
 }   
 
+<<<<<<< HEAD
 .Home-Figure-rw-span-font{
+=======
+#Home-Figure-rw-span-font{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     width: 20px;
     height: 20px;
     background-color: white;
@@ -700,10 +822,17 @@ input:hover {
     left: 74%;
     cursor: pointer;
 }
+<<<<<<< HEAD
 .Home-Figure-rw-span-font:checked+div{
     display: block;
 }
 .Home-Figure-rw-span-font::after{
+=======
+#Home-Figure-rw-span-font:checked+div{
+    display: block;
+}
+#Home-Figure-rw-span-font::after{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     content: "";
     width: 24px;
     height: 24px;
@@ -726,7 +855,11 @@ input:hover {
     top: 58%;
 }
 
+<<<<<<< HEAD
 .Home-Figure-rw-span-Five{
+=======
+#Home-Figure-rw-span-Five{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     width: 20px;
     height: 20px;
     background-color: white;
@@ -735,10 +868,17 @@ input:hover {
     left: 51%;
     cursor: pointer;
 }
+<<<<<<< HEAD
 .Home-Figure-rw-span-Five:checked + div{
     display: block;
 }
 .Home-Figure-rw-span-Five::after{
+=======
+#Home-Figure-rw-span-Five:checked + div{
+    display: block;
+}
+#Home-Figure-rw-span-Five::after{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     content: "";
     width: 24px;
     height: 24px;
@@ -760,7 +900,11 @@ input:hover {
     display: none;
 }
 
+<<<<<<< HEAD
 .Home-Figure-rw-span-Six{
+=======
+#Home-Figure-rw-span-Six{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     width: 20px;
     height: 20px;
     background-color: white;
@@ -769,10 +913,17 @@ input:hover {
     left: 53.5%;
     cursor: pointer;
 }
+<<<<<<< HEAD
 .Home-Figure-rw-span-Six:checked + div{
     display: block;
 }
 .Home-Figure-rw-span-Six::after{
+=======
+#Home-Figure-rw-span-Six:checked + div{
+    display: block;
+}
+#Home-Figure-rw-span-Six::after{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     content: "";
     width: 24px;
     height: 24px;
@@ -944,7 +1095,11 @@ input:hover {
     top: 63%;
 }
 
+<<<<<<< HEAD
 .swiper-one{
+=======
+#swiper-one{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     width: 15px;
     height: 15px;
     background-color: red;
@@ -954,12 +1109,20 @@ input:hover {
     z-index: 1000;
 }
 
+<<<<<<< HEAD
 .swiper-one:checked ~ ul{
+=======
+#swiper-one:checked ~ ul{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     transition: all 1s;
     margin-left: 0px;
 }
 
+<<<<<<< HEAD
 .swiper-two{
+=======
+#swiper-two{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     width: 15px;
     height: 15px;
     background-color: red;
@@ -969,11 +1132,19 @@ input:hover {
     z-index: 1000;
 }
 
+<<<<<<< HEAD
 .swiper-two:checked ~ ul{
     transition: all 1s;
     margin-left: -590px;
 }
 .swiper-three{
+=======
+#swiper-two:checked ~ ul{
+    transition: all 1s;
+    margin-left: -590px;
+}
+#swiper-three{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     width: 15px;
     height: 15px;
     background-color: red;
@@ -983,12 +1154,20 @@ input:hover {
     z-index: 1000;
 }
 
+<<<<<<< HEAD
 .swiper-three:checked ~ ul{
+=======
+#swiper-three:checked ~ ul{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     transition: all 1s;
     margin-left: -1130px;
 }
 
+<<<<<<< HEAD
 .swiper-font{
+=======
+#swiper-font{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     width: 15px;
     height: 15px;
     background-color: red;
@@ -998,12 +1177,20 @@ input:hover {
     z-index: 1000;
 }
 
+<<<<<<< HEAD
 .swiper-font:checked ~ ul{
+=======
+#swiper-font:checked ~ ul{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     transition: all 1s;
     margin-left: -1700px;
 }
 
+<<<<<<< HEAD
 .swiper-Five{
+=======
+#swiper-Five{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     width: 15px;
     height: 15px;
     background-color: red;
@@ -1013,12 +1200,20 @@ input:hover {
     z-index: 1000;
 }
 
+<<<<<<< HEAD
 .swiper-Five:checked ~ ul{
+=======
+#swiper-Five:checked ~ ul{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     transition: all 1s;
     margin-left: -2240px;
 }
 
+<<<<<<< HEAD
 .swiper-Six{
+=======
+#swiper-Six{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     width: 15px;
     height: 15px;
     background-color: red;
@@ -1028,12 +1223,20 @@ input:hover {
     z-index: 1000;
 }
 
+<<<<<<< HEAD
 .swiper-Six:checked ~ ul{
+=======
+#swiper-Six:checked ~ ul{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     transition: all 1s;
     margin-left: -2800px;
 }
 
+<<<<<<< HEAD
 .swiper-Seven{
+=======
+#swiper-Seven{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     width: 15px;
     height: 15px;
     background-color: red;
@@ -1043,12 +1246,20 @@ input:hover {
     z-index: 1000;
 }
 
+<<<<<<< HEAD
 .swiper-Seven:checked ~ ul{
+=======
+#swiper-Seven:checked ~ ul{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     transition: all 1s;
     margin-left: -3360px;
 }
 
+<<<<<<< HEAD
 .swiper-Eight{
+=======
+#swiper-Eight{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     width: 15px;
     height: 15px;
     background-color: red;
@@ -1058,12 +1269,20 @@ input:hover {
     z-index: 1000;
 }
 
+<<<<<<< HEAD
 .swiper-Eight:checked ~ ul{
+=======
+#swiper-Eight:checked ~ ul{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     transition: all 1s;
     margin-left: -3920px;
 }
 
+<<<<<<< HEAD
 .swiper-Nine{
+=======
+#swiper-Nine{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     width: 15px;
     height: 15px;
     background-color: red;
@@ -1073,12 +1292,20 @@ input:hover {
     z-index: 1000;
 }
 
+<<<<<<< HEAD
 .swiper-Nine:checked ~ ul{
+=======
+#swiper-Nine:checked ~ ul{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     transition: all 1s;
     margin-left: -4480px;
 }
 
+<<<<<<< HEAD
 .swiper-Ten{
+=======
+#swiper-Ten{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     width: 15px;
     height: 15px;
     background-color: red;
@@ -1088,12 +1315,20 @@ input:hover {
     z-index: 1000;
 }
 
+<<<<<<< HEAD
 .swiper-Ten:checked ~ ul{
+=======
+#swiper-Ten:checked ~ ul{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     transition: all 1s;
     margin-left: -5008px;
 }
 
+<<<<<<< HEAD
 .swiper-Eleven{
+=======
+#swiper-Eleven{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     width: 15px;
     height: 15px;
     background-color: red;
@@ -1103,7 +1338,11 @@ input:hover {
     z-index: 1000;
 }
 
+<<<<<<< HEAD
 .swiper-Eleven:checked ~ ul{
+=======
+#swiper-Eleven:checked ~ ul{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     transition: all 1s;
     margin-left: -5600px;
 }
@@ -1115,7 +1354,11 @@ input:hover {
     text-align: center;
     line-height: 50px;
 }
+<<<<<<< HEAD
  .Home-tabber-at-last-ul{
+=======
+ #Home-tabber-at-last-ul{
+>>>>>>> 42a86bad76c0c70340cc285f8d4dbf55afe50be1
     display: flex;
     list-style: none;
     margin-left: 22%;
