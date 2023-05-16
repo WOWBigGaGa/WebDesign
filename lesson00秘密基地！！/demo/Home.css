@@ -1,5 +1,5 @@
 .body-1 {
-  width: 1510px;
+  width: 1600px;
   height: 112%;
   /* max-height: 700px; */
   background-color: black;
@@ -10,7 +10,7 @@
 }
 
 .body-1 .slides {
-  width: 360%;
+  width: 330%;
   height: 120%;
   /* background-color: black; */
   z-index: 10;

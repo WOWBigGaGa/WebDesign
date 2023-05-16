@@ -9,22 +9,22 @@ html,body {
   background-color: black;
 }
 
-.Home-title {
+.title0 {
   height: 100px;
   /* background-color: red; */
   position: relative;
   display: flex;
 }
 
-.Home-Max {
+.body-0 {
   width: 100%;
-  height: 733px;
+  height: 900px;
   background-image: url("./img/tk.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
-.Home-title-img {
+.title0-img {
   width: 210px;
   height: 46px;
   /* margin-left: 9%; */
@@ -33,12 +33,12 @@ html,body {
   left: 50px;
 }
 
-.Home-title-img img {
+.title0-img img {
   width: 100%;
   height: 100%;
 }
 
-.Home-title-nav {
+.title0-nav {
   width: 65%;
   height: 26px;
   /* background-color: aqua; */
@@ -48,7 +48,7 @@ html,body {
   display: flex;
 }
 
-.Home-title-nav a {
+.title0-nav a {
   text-decoration: none;
   font-weight: bold;
   color: white;
@@ -60,12 +60,12 @@ html,body {
   transition: background-size 1s;
 }
 
-.Home-title-nav a:hover {
+.title0-nav a:hover {
   background-size: 100px 2px;
   background-position-x: left;
 }
 
-.Home-title-nav a:nth-child(5) {
+.title0-nav a:nth-child(5) {
   text-decoration: none;
   font-weight: bold;
   color: white;
@@ -77,12 +77,12 @@ html,body {
   transition: background-size 1s;
 }
 
-.Home-title-nav a:nth-child(5):hover {
+.title0-nav a:nth-child(5):hover {
   background-size: 180px 2px;
   background-position-x: left;
 }
 
-.Home-title-nav-rigth {
+.title0-nav-rigth {
   /* width: 100px; */
   /* background-color: aqua; */
   height: 26px;
@@ -94,7 +94,7 @@ html,body {
   display: flex;
 }
 
-.Home-title-nav-rigth a {
+.title0-nav-rigth a {
   display: inline-block;
   text-decoration: none;
   height: 20px;
@@ -109,12 +109,12 @@ html,body {
   transition: background-size 1s;
 }
 
-.Home-title-nav-rigth a:hover {
+.title0-nav-rigth a:hover {
   background-size: 100px 2px;
   background-position-x: left;
 }
 
-.Home-title-nav-rigth img {
+.title0-nav-rigth img {
   width: 20px;
   height: 90%;
   /* margin-left: 40%; */
@@ -123,7 +123,7 @@ html,body {
   /* top: -5px; */
 }
 
-.Home-nr {
+.slogan {
   max-width: 960px;
   width: 90%;
   position: absolute;
@@ -132,13 +132,13 @@ html,body {
   left: 18%;
 }
 
-.Home-nr h1 {
+.slogan h1 {
   color: white;
   font-size: 70px;
   margin-left: 8%;
 }
 
-.Home-nr h6 {
+.slogan h6 {
   color: white;
   /* background-color: white; */
   display: inline;
@@ -146,7 +146,7 @@ html,body {
 }
 
 .body-1 {
-  width: 1510px;
+  width: 1600px;
   height: 112%;
   /* max-height: 700px; */
   background-color: black;
@@ -157,7 +157,7 @@ html,body {
 }
 
 .body-1 .slides {
-  width: 360%;
+  width: 330%;
   height: 120%;
   /* background-color: black; */
   z-index: 10;
@@ -374,7 +374,7 @@ input:nth-child(4) {
 }
 
 .one-img img:hover {
-  content: url("../demo/img/destination-iss-hover.svg");
+  content: url("../仿站/img/destination-iss-hover.svg");
 }
 
 .img-two {
@@ -386,7 +386,7 @@ input:nth-child(4) {
 }
 
 .img-two img:hover {
-  content: url("../demo/img/destination-dragon-hover.svg");
+  content: url("../仿站/img/destination-dragon-hover.svg");
 }
 
 .img-three {
@@ -397,7 +397,7 @@ input:nth-child(4) {
 }
 
 .img-three img:hover {
-  content: url("../demo/img/destination-moon-hover.svg");
+  content: url("../仿站/img/destination-moon-hover.svg");
 }
 
 .img-font {
@@ -408,7 +408,7 @@ input:nth-child(4) {
 }
 
 .img-font img:hover {
-  content: url("../demo/img/destination-mars-hover.svg");
+  content: url("../仿站/img/destination-mars-hover.svg");
 }
 
 .body-2:hover .one-img {
@@ -892,13 +892,13 @@ input:hover {
   transition: all 1s;
 }
 
-.Home-title-right{
+.title0-right{
   width: 40%;
   height: 100%;
   background-color: black;
 }
 
-.Home-title-right-item{
+.title0-right-item{
   width: 90%;
   height: 300px;
   position: relative;
@@ -1198,7 +1198,7 @@ input:hover {
   cursor: pointer;
 }
 
-.Home-title-keystroke{
+.title0-keystroke{
   width: 100px;
   height: 50px;
   /* background-color: red; */
@@ -1207,7 +1207,7 @@ input:hover {
   left: 700px;
 }
 
-.Home-title-keystroke img{
+.title0-keystroke img{
   width: 100%;
   height: 100%;
 }
