@@ -1,0 +1,30 @@
+body{
+  background-color: black;
+}
+
+.body-2{
+  width: 1575px auto;
+  height: 800px;
+  position: relative;
+  background: darkslategray url(../仿站/images/Earth.svg)bottom center;
+  background-repeat: no-repeat;
+}
+
+h1{
+  color: white;
+  text-align: center;
+}
+
+.y2,.y3,.y4{
+  width: 16%;
+  height: 16%;
+  position: absolute;
+}
+
+.y5{
+  left: 850px;
+  top: 100px;
+  width: 30%;
+  height: 30% auto;
+  position: absolute;
+}

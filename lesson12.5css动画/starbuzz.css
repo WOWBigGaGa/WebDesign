@@ -1,0 +1,151 @@
+body { 
+  background-color: #b5a789;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        small;
+  margin:           0px;
+}
+
+.header {
+  background-color: #675c47;
+  margin:           10px;
+  height:           108px;
+  margin-bottom: 0;
+}
+
+.main {
+  background:       #efe5d0 url(images/background.gif) top left;
+  font-size:        105%;
+  padding:          15px;
+  margin:           0px 10px 10px 10px;
+  display: table-cell;
+  vertical-align: top;
+  /* 垂直对齐，顶端对齐 */
+}
+
+.sidebar {
+  background:       #efe5d0 url(images/background.gif) bottom right;
+  font-size:        105%;
+  padding:          15px;
+  margin:           0px 10px 10px 10px;
+  display: table-cell;
+  vertical-align: top;
+  width: 280px;
+}
+
+.footer {
+  background-color: #675c47;
+  color:            #efe5d0;
+  text-align:       center;
+  padding:          15px;
+  margin:           10px;
+  font-size:        90%;
+  margin-top: 0px;
+}
+
+h1 {
+  font-size:        120%;
+  color:            #954b4b;
+}
+
+.slogan { color: #954b4b; }
+
+.beanheading {
+  text-align:       center;
+  line-height:      1.8em;
+}
+
+a:link {
+  color:            #b76666;
+  text-decoration:  none;
+  border-bottom:    thin dotted #b76666;
+}
+a:visited {
+  color:            #675c47;
+  text-decoration:  none;
+  border-bottom:    thin dotted #675c47;
+}
+
+div.tablecontainer{
+  display: table;
+  border-spacing: 10px;
+}
+
+div.tablerow{
+  display: table-row;
+}
+
+.drinks{
+  display: table-cell;
+  vertical-align: top;
+  background-color: #efe5d0;
+  padding: 15px;
+}
+
+.sprite-container {
+  width: 260px; /* 显示的宽度为足够露出 Logo 和 slogan 为准 */ 
+  height: 100%; /* 图片高度 */
+  overflow: hidden; /* 隐藏溢出部分 */ 
+}
+
+.header-logo {
+	background-image: url('images/header.gif');
+	background-position-x: 0px;
+	background-position-y: 0px; /* 没有任何偏移 */
+}
+
+.header-slogan {
+	background-image: url('images/header.gif');
+	background-position: 260px 0px; /* 向左偏移 */
+	float: right;
+}
+
+/* .award {
+	position: absolute;
+	top: 30px;
+	left: 45%;
+  transition: scale 0.5s ease;
+} */
+
+.award {
+	position: absolute;
+	top: 30px;
+	left: 45%;
+  transition: all 0.5s ease-in;
+}
+
+.award:hover {
+  transform: scale(999);
+}
+
+/* .coupon {
+	position: fixed;
+	top: 30px;
+	left: 55%;
+} */
+
+/* .coupon {
+	position: fixed;
+	top: 350px;
+	left: 0px;
+} */
+
+/* .coupon {
+	position: fixed;
+	top: 350px;
+	left: -90px;
+} */
+
+.coupon { 
+	position: fixed; 
+	top: 350px; 
+	left: -210px; /* 初始位置在左侧 */ 
+	transition: left 0.5s ease; /* 添加过渡效果 */
+}
+
+.coupon:hover {
+	left: 0px; /* 悬停时移动到 0px 的位置 */
+}
+
+.coupon a, img{
+	border: none;
+}
