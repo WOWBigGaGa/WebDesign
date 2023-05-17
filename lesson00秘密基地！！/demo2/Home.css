@@ -403,7 +403,7 @@ input:nth-child(4) {
 }
 
 .one-img img:hover {
-  content: url("../仿站/img/destination-iss-hover.svg");
+  content: url("../demo2/img/destination-iss-hover.svg");
 }
 
 .img-two {
@@ -415,7 +415,7 @@ input:nth-child(4) {
 }
 
 .img-two img:hover {
-  content: url("../仿站/img/destination-dragon-hover.svg");
+  content: url("../demo2/img/destination-dragon-hover.svg");
 }
 
 .img-three {
@@ -426,18 +426,18 @@ input:nth-child(4) {
 }
 
 .img-three img:hover {
-  content: url("../仿站/img/destination-moon-hover.svg");
+  content: url("../demo2/img/destination-moon-hover.svg");
 }
 
-.img-font {
+.img-four {
   width: 300px;
   height: 300px;
   transform: translate(1050px, -400px);
   transition: all 1.5s;
 }
 
-.img-font img:hover {
-  content: url("../仿站/img/destination-mars-hover.svg");
+.img-four img:hover {
+  content: url("../demo2/img/destination-mars-hover.svg");
 }
 
 .body-2:hover .one-img {
@@ -452,7 +452,7 @@ input:nth-child(4) {
   transform: translate(710px, -70px);
 }
 
-.body-2:hover .img-font {
+.body-2:hover .img-four {
   transform: translate(1150px, -400px);
 }
 
@@ -569,7 +569,7 @@ input:nth-child(4) {
 .Home-Figure-rw {
   width: 120%;
   height: 100%;
-  background: url("../仿站/img/rw.png") no-repeat;
+  background: url("../demo2/img/rw.png") no-repeat;
   margin-top: 20px;
   background-size: 90% 110%;
   background-position: 174%;
