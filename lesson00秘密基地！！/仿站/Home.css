@@ -198,7 +198,7 @@ input {
 
 input:nth-child(1) {
   position: absolute;
-  top: 975px;
+  top: 850px;
   left: 620px;
   z-index: 100;
   background-color: #ffffff;
@@ -206,7 +206,7 @@ input:nth-child(1) {
 
 input:nth-child(2) {
   position: absolute;
-  top: 975px;
+  top: 850px;
   left: 775px;
   z-index: 100;
   background-color: #ffffff;
@@ -214,7 +214,7 @@ input:nth-child(2) {
 
 input:nth-child(3) {
   position: absolute;
-  top: 975px;
+  top: 850px;
   left: 825px;
   z-index: 100;
   background-color: #ffffff;
@@ -222,7 +222,7 @@ input:nth-child(3) {
 
 input:nth-child(4) {
   position: absolute;
-  top: 975px;
+  top: 850px;
   left: 875px;
   z-index: 100;
   background-color: #ffffff;
