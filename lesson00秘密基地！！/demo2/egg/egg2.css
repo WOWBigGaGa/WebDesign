@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+.stage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #4a96ee;
+  left: 0;
+  top: 0;
+}
+
+.sheep {
+  position: absolute;
+  left: 1200px;
+  bottom: 0;
+  width: 164px;
+  height: 122px;
+  background-image: url(../egg/v-img/sheep.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  cursor: grabbing;
+}
