@@ -4,21 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../egg/egg.css">
-    <title>是谁网页做到崩溃</title>
+    <link rel="stylesheet" href="../egg/egg1.css">
+    <title>a light bulb</title>
   </head>
   
   <body>
-    <a href="../demo2.html" title="舍得离开吗~~胜过离开~~以这种方式存在~~~">点我回网页</a>
-    <h1>额……你好……？<br>或许你也想玩泥巴吗？！<br><em>（纯彩蛋）</em></h1>
-    <div class="gradient-border" id="box">
-      <video class="video" autoplay="autoplay" loop="loop" id="video" x-webkit-airplay="true" webkit-playsinline="true" muted="">
-        <source src="../egg/v-img/niba.mp4" type="video/mp4">
-      </video>
-
-      <audio autoplay="autoplay" loop="loop" preload="auto" src="../egg/v-img/niba.MP3">
-      </audio>
+    <div class="light">
+      <div class="wire"></div>
+      <div class="bulb">
+        <span></span>
+        <span></span>
+      </div>
+      
+      <div class="switch">
+        <div class="btn"></div>
+      </div>
+      </div>
     </div>
-  
+
+    <script>
+      let btn = document.querySelector('.btn');
+      let body = document.querySelector('body');
+      btn.onclick = function(){
+        body.classList.toggle('on');
+      }
+    </script>
   </body>
 </html>
