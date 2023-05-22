@@ -5,13 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../spacex/Home.css">
-
+    <link rel="icon" href="img/logo.ico" type="image/x-icon">
     <title>SpaceX - Human Spaceflight</title>
   </head>
   
   <body>
 
-
+    <div class="body-0">
+      <div class="title-0">
+        <div class="title-0-keystroke">
+          <img src="img/xiangxia.png" alt="xiangxiajiantou">
+        </div>
+        <div class="title-0-img">
+          <img src="img/log.png" alt="">
+        </div>
+        <div class="title-0-nav">
+          <a href="">FALCON 9</a>
+          <a href="">FALCON HEAVY</a>
+          <a href="">DRAGON</a>
+          <a href="">STARSHIP</a>
+          <a href="">HUMAN SPACEFLIGHT</a>
+          <a href="">RIDESHARE</a>
+          <a href="">STARSHIELD</a>
+          <a href="">STARLINK</a>
+        </div>
+        <div class="title-0-nav-rigth">
+          <a href="">SHOP</a>
+          <img src="img/zhankai.png" alt="" class="img-select"> 
+        </div>
+        <div class="nav-0" id="Home-select-i" style="display: block;height: 0px;">
+          <div class="nav-0-item">
+              MISSION
+          </div>
+          <div class="nav-0-item" style="text-indent: 8em;">
+              LAUNCHES
+          </div>
+          <div class="nav-0-item" >
+              CAREERS
+          </div>
+          <div class="nav-0-item" >
+              UPDATES
+          </div>
+          <div class="nav-0-item" >
+              SHOP
+          </div>
+        </div>
+      </div>
+      <div class="nr">
+        <h1>HUMAN SPACEFLIGHT</h1>
+        <h6>Making life multiplanetary</h6>
+      </div>
+    </div>
     
     <div class="body-1">
       <input type="radio" name="radio" class="put1" checked>
@@ -278,6 +322,24 @@
         <li>SUPPLIERS</li>
       </ul>
     </div>
+
+    <script>
+      let img_selcet = document.querySelector(".img-select")
+      let Home_select = document.querySelector(".nav-0")
+      let flase = true
+      img_selcet.addEventListener("click",function(){
+          if(flase){
+              Home_select.style.display = "block"
+          setTimeout(()=>{
+              Home_select.style.height = "400px"
+          },300)
+          flase =! flase
+          }else{
+              Home_select.style.height = "0px"
+              flase =! flase
+          }
+      })
+    </script>
 
   </body>
 </html>
