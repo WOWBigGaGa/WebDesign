@@ -102,6 +102,14 @@ p{
   display: inline-block;
 }
 
+.watch{
+  margin: 10px 0 10px 0;
+}
+
+h2{
+  margin: 50px 0 10px 0;
+}
+
 .danmu-1{
   height: 20px;
   width: 30px;
