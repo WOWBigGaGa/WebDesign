@@ -1,0 +1,14 @@
+body{
+  background: #003366;
+}
+
+.miao{
+  width: 724px;
+  height: 710px;
+}
+
+.miaomiao{
+  width: 720px;
+  height: 710px;
+  transform: rotateY(180deg);
+}
