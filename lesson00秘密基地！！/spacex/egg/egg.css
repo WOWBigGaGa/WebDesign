@@ -27,6 +27,9 @@ body {
 }
 
 .gradient-border {
+  position: absolute;
+  top: 40px;
+  left: -190px;
   --borderWidth: 3px;
   background: #1D1F20;
   position: relative;
@@ -59,31 +62,59 @@ body {
   }
 }
 
-.top{
-  position: relative;
-  margin: 0;
-  padding: 0;
-  top: 0;
-}
+
 
 .logo{
-  width: 110px;
-  height: 52.5px;
+  position: relative;
+  width: 95px;
+  height: 42.5px;
   margin: 0;
   padding: 0;
+  left: 10px;
+  top: 5px;
 }
 
 .touxiang{
-  width: 30px;
-  height: 30px;
+  position: relative;
+  top: 5px;
+  left: 15px;
+  width: 40px;
+  height: 40px;
 }
 
 ul.slides{
+  width: 1507px;
+  height: 52.5px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
   margin: 0;
   list-style-type: none;
   padding: 5px 0px 5px 0px;
-  align-items: center;
   justify-content: center;
+  box-shadow: 10px 10px 15px rgba(233, 233, 233, 0.9);
+}
+
+li.slide.slide1{
+  text-align: center;
+  height: 56.5px;
+}
+
+.slide1{
+  position: relative;
+  top: -9px;
+  left: 12px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.msi{
+  position: relative;
+  width: 65px;
+  height: 20px;
+  top: -5px;
+  left: 15px;
 }
 
 ul li{
@@ -92,10 +123,13 @@ ul li{
 }
 
 a{
+  position: relative;
   text-decoration: none;
   color: #1D1F20;
   font-family: "幼圆";
   font-weight: bold;
+  /* text-align: center; */
+  text-align: left;
 }
 
 p{
@@ -103,14 +137,30 @@ p{
 }
 
 .watch{
+  position: absolute;
+  top: 115px;
+  left: 150px;
   margin: 10px 0 10px 0;
 }
 
 h2{
-  margin: 50px 0 10px 0;
+  position: absolute;
+  top: 85px;
+  left: 150px;
+  margin: 10px 0 10px 0;
+}
+
+.danmu{
+  position: absolute;
+  align-items: left;
+  top: 640px;
+  left: 155px;
+  height: 20px;
+  width: 1200px;
 }
 
 .danmu-1{
+  /* position: absolute; */
   height: 20px;
   width: 30px;
 }
