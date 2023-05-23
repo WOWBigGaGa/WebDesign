@@ -24,12 +24,11 @@ html,body {
   height: 100px;
   position: relative;
   display: flex;
-
 }
 
 .body-0 {
   width: 100%;
-  height: 733px;
+  height: 900px;
   background-image: url("img/tk.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -49,7 +48,7 @@ html,body {
 }
 
 .title-0-nav {
-  width: 65%;
+  width: 80%;
   height: 26px;
   margin-left: 4%;
   position: relative;
@@ -91,7 +90,6 @@ html,body {
   background-position-x: left;
 }
 
-
 .title-0-nav-rigth {
   height: 26px;
   font-weight: bold;
@@ -113,6 +111,7 @@ html,body {
   top: 0px;
   left: -80px;
   background: url("img/bai.png") no-repeat right bottom;
+  /* background-blend-mode:multiply; */
   background-size: 0px 2px;
   transition: background-size 1s;
 }
@@ -157,7 +156,7 @@ html,body {
   width: 100px;
   height: 50px;
   position: relative;
-  top: 600px;
+  top: 700px;
   left: 750px;
 }
 
@@ -232,7 +231,7 @@ html,body {
 }
 
 .body-1 .slide img {
-  width: 99%;
+  width: 98%;
   height: 105%;
   margin-top: -80px;
   /* margin-left: 10px; */
@@ -688,11 +687,11 @@ color: white;
   padding: 0;
   margin: 0;
   border:0;
-  transition: all 5s ease-in;
+  transition: all 2s ease-in;
 }
 
 .z1:hover {
-  transform:scale(1.5);
+  transform:scale(1.05);
 }
 
 .z2 {
@@ -705,23 +704,23 @@ color: white;
 }
 
 .z3{
-  width: 1500px;
+  width: 1600px;
   height: 50%;
   margin-left: 15px;
   margin-top: 10%;
   overflow: hidden;
   position: relative;
-
 }
+
 .z4{
   width: 600%;
   height: 85%;
 }
 
 .z4  li{
-  width: 6%;
+  width: 5.65%;
   height: 100%;
-  margin-left: 20px;
+  margin-right: 20px;
   float: left;
   list-style: none;
   position: relative;
@@ -752,6 +751,18 @@ color: white;
   font-size: small;
 }
 
+.z0{
+  transition: all 1.1s ease-in;
+}
+
+.z0:hover{
+  filter:alpha(opacity=60);
+  -maz-opacity:0.6;
+  opacity: 0.6;
+  transition: all 1.1s ease-in;
+  /* transition: all 1.5s linear; */
+}
+
 .z12{
   color: white; 
   margin-top: 5px;
@@ -760,6 +771,20 @@ color: white;
   font-weight: normal;
   font-size: small;
 }
+
+/* #Zero{
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 95%;
+  left: 33%;
+  z-index: 1000;
+}
+
+#Zero:checked ~ ul{
+  transition: all 1s;
+  margin-left: 590px;
+} */
 
 #one{
   width: 15px;
@@ -788,12 +813,13 @@ color: white;
   transition: all 1s;
   margin-left: -590px;
 }
+
 #three{
   width: 15px;
   height: 15px;
   position: absolute;
   top: 95%;
-  left: 40.5%;
+  left: 41%;
   z-index: 1000;
 }
 
@@ -807,7 +833,7 @@ color: white;
   height: 15px;
   position: absolute;
   top: 95%;
-  left: 43%;
+  left: 44%;
   z-index: 1000;
 }
 
@@ -821,13 +847,13 @@ color: white;
   height: 15px;
   position: absolute;
   top: 95%;
-  left: 46%;
+  left: 47%;
   z-index: 1000;
 }
 
 #Five:checked ~ ul{
   transition: all 1s;
-  margin-left: -2240px;
+  margin-left: -2300px;
 }
 
 #Six{
@@ -835,13 +861,13 @@ color: white;
   height: 15px;
   position: absolute;
   top: 95%;
-  left: 49%;
+  left: 50%;
   z-index: 1000;
 }
 
 #Six:checked ~ ul{
   transition: all 1s;
-  margin-left: -2800px;
+  margin-left: -2850px;
 }
 
 #Seven{
@@ -849,13 +875,13 @@ color: white;
   height: 15px;
   position: absolute;
   top: 95%;
-  left: 52%;
+  left: 53%;
   z-index: 1000;
 }
 
 #Seven:checked ~ ul{
   transition: all 1s;
-  margin-left: -3360px;
+  margin-left: -3430px;
 }
 
 #Eight{
@@ -863,13 +889,13 @@ color: white;
   height: 15px;
   position: absolute;
   top: 95%;
-  left: 55%;
+  left: 56%;
   z-index: 1000;
 }
 
 #Eight:checked ~ ul{
   transition: all 1s;
-  margin-left: -3920px;
+  margin-left: -4000px;
 }
 
 #Nine{
@@ -877,13 +903,13 @@ color: white;
   height: 15px;
   position: absolute;
   top: 95%;
-  left: 58%;
+  left: 59%;
   z-index: 1000;
 }
 
 #Nine:checked ~ ul{
   transition: all 1s;
-  margin-left: -4480px;
+  margin-left: -4600px;
 }
 
 #Ten{
@@ -891,13 +917,13 @@ color: white;
   height: 15px;
   position: absolute;
   top: 95%;
-  left: 61%;
+  left: 62%;
   z-index: 1000;
 }
 
 #Ten:checked ~ ul{
   transition: all 1s;
-  margin-left: -5008px;
+  margin-left: -5180px;
 }
 
 #Eleven{
@@ -905,13 +931,13 @@ color: white;
   height: 15px;
   position: absolute;
   top: 95%;
-  left: 64%;
+  left: 65%;
   z-index: 1000;
 }
 
 #Eleven:checked ~ ul{
   transition: all 1s;
-  margin-left: -5600px;
+  margin-left: -5720px;
 }
 
 .z6{
