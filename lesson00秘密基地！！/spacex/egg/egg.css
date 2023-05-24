@@ -26,7 +26,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 800px;
-  height: 450px;
+  height: 424px;
   color: white;
   font-family: 'Raleway';
   font-size: 2.5rem;
@@ -34,8 +34,8 @@ body {
 
 .gradient-border {
   position: relative;
-  top: 80px;
-  left: -270px;
+  top: 85px;
+  left: -136px;
   --borderWidth: 3px;
   background: #1D1F20;
   position: relative;
@@ -193,9 +193,10 @@ h2{
 .danmu{
   position: absolute;
   align-items: left;
-  top: 625px;
-  left: 120px;
-  height: 60px;
+  padding: 0 0 10px 0;
+  top: 590px;
+  left: 130px;
+  height: 50px;
   width: 805px;
   box-shadow: 0px 5px 10px 1px rgba(233, 233, 233, 1.3);
 }
@@ -214,7 +215,6 @@ h2{
   width: 40px;
   left: -30px;
   top: 3px;
-
 }
 
 .introduce-touxiang{
@@ -321,15 +321,124 @@ h2{
 
 .introduce{
   position: relative;
-  top: -250px;
-  left: 620px;
+  top: -210px;
+  left: 690px;
 }
 
 .dtb{
   position: relative;
   height: 28px;
   width: 28px;
-  top: -370px;
-  left: -265px;
+  top: -345px;
+  left: -156px;
   z-index: 1000000000000;
+}
+
+.xf{
+  position: relative;
+  height: 28px;
+  width: 28px;
+  top: -345px;
+  left: -126px;
+  z-index: 1000000000000;
+}
+
+.dt{
+  position: relative;
+  height: 28px;
+  width: 28px;
+  top: -345px;
+  left: -102px;
+  z-index: 1000000000000;
+}
+
+.star{
+  position: relative;
+  height: 28px;
+  width: 28px;
+  top: -345px;
+  left: -78px;
+  z-index: 1000000000000;
+}
+
+.time{
+  position: relative;
+  height: 28px;
+  width: 28px;
+  top: -345px;
+  left: -53px;
+  z-index: 1000000000000;
+}
+
+.bulb{
+  position: relative;
+  height: 28px;
+  width: 28px;
+  top: -345px;
+  left: -16px;
+  z-index: 1000000000000;
+}
+
+.dianzan{
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  top: 670px;
+  left: 130px;
+}
+
+.toubi{
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  top: 670px;
+  left: 230px;
+}
+
+.shoucang-2{
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  top: 670px;
+  left: 330px;
+}
+
+.zhuanfa{
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  top: 670px;
+  left: 430px;
+}
+
+p.dianzan{
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  top: 663px;
+  left: 190px;
+}
+
+p.toubi{
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  top: 663px;
+  left: 290px;
+}
+
+p.shoucang-2{
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  top: 663px;
+  left: 390px;
+}
+
+p.zhuanfa{
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  top: 663px;
+  left: 490px;
 }
