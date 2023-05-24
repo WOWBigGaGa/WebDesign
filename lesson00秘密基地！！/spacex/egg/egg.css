@@ -12,6 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
+  /* width: 1600px; */
   background: #ffffff;
   font-family: "幼圆";
 }
@@ -33,8 +34,8 @@ body {
 
 .gradient-border {
   position: relative;
-  top: 110px;
-  left: -215px;
+  top: 80px;
+  left: -270px;
   --borderWidth: 3px;
   background: #1D1F20;
   position: relative;
@@ -86,7 +87,7 @@ body {
 }
 
 ul.slides{
-  width: 1550px;
+  width: 1600px;
   height: 52.5px;
   /* overflow: hidden; */
   position: absolute;
@@ -135,18 +136,25 @@ ul li{
   padding: 5px 10px 5px 10px;
 }
 
-.dhy{
+.jump{
   position: absolute;
+  height: 40px;
   top: 39px;
   left: 50%;
   display: none;
   white-space: nowrap;
   transform: translate(-50%, 0);
+  border: #ffffff 1px solid;
   border-radius: 100px;
-  box-shadow: 15px 15px 20px rgba(233, 233, 233, 1.3);
+  box-shadow: 10px 10px 20px 5px rgba(233, 233, 233, 1.3);
 }
 
-.slide2:hover .dhy {
+.slide1:hover .jump {
+  display: block;
+  z-index: 1000;
+}
+
+.slide2:hover .jump {
   display: block;
   z-index: 1000;
 }
@@ -186,7 +194,7 @@ h2{
   position: absolute;
   align-items: left;
   top: 625px;
-  left: 138px;
+  left: 120px;
   height: 60px;
   width: 805px;
   box-shadow: 0px 5px 10px 1px rgba(233, 233, 233, 1.3);
@@ -313,6 +321,15 @@ h2{
 
 .introduce{
   position: relative;
-  top: -220px;
+  top: -250px;
   left: 620px;
+}
+
+.dtb{
+  position: relative;
+  height: 28px;
+  width: 28px;
+  top: -370px;
+  left: -265px;
+  z-index: 1000000000000;
 }
