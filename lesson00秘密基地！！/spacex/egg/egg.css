@@ -35,7 +35,7 @@ body {
 .gradient-border {
   position: relative;
   top: 85px;
-  left: -136px;
+  left: 345px;
   --borderWidth: 3px;
   background: #1D1F20;
   position: relative;
@@ -322,7 +322,7 @@ h2{
 .introduce{
   position: relative;
   top: -210px;
-  left: 690px;
+  left: 1160px;
 }
 
 .dtb{
@@ -330,7 +330,7 @@ h2{
   height: 28px;
   width: 28px;
   top: -345px;
-  left: -156px;
+  left: 323px;
   z-index: 1000000000000;
 }
 
@@ -339,7 +339,7 @@ h2{
   height: 28px;
   width: 28px;
   top: -345px;
-  left: -126px;
+  left: 354px;
   z-index: 1000000000000;
 }
 
@@ -348,7 +348,7 @@ h2{
   height: 28px;
   width: 28px;
   top: -345px;
-  left: -102px;
+  left: 380px;
   z-index: 1000000000000;
 }
 
@@ -357,7 +357,7 @@ h2{
   height: 28px;
   width: 28px;
   top: -345px;
-  left: -78px;
+  left: 403px;
   z-index: 1000000000000;
 }
 
@@ -366,7 +366,7 @@ h2{
   height: 28px;
   width: 28px;
   top: -345px;
-  left: -53px;
+  left: 428px;
   z-index: 1000000000000;
 }
 
@@ -375,7 +375,7 @@ h2{
   height: 28px;
   width: 28px;
   top: -345px;
-  left: -16px;
+  left: 464px;
   z-index: 1000000000000;
 }
 
@@ -441,4 +441,250 @@ p.zhuanfa{
   height: 30px;
   top: 663px;
   left: 490px;
+}
+
+.picture0{
+  position: relative;
+  height: 85px;
+  width: 160px;
+  border-radius: 5px;
+  background: url(../egg/v-img/bulb.png) no-repeat;
+  background-size: 100% 100% ;
+}
+
+.timu{
+  position: relative;
+  font-size: 12px;
+  font-weight: bold;
+  top: -95px;
+  left: 180px;
+}
+
+.up{
+  position: relative;
+  font-size: 10px;
+  font-weight: bold;
+  top: -95px;
+  left: 180px;
+  color: slategray;
+}
+
+.liulan{
+  position: relative;
+  font-size: 10px;
+  font-weight: bold;
+  top: -95px;
+  left: 180px;
+  color: slategray;
+}
+
+.picture1{
+  position: relative;
+  height: 85px;
+  width: 160px;
+  border-radius: 5px;
+  background: url(../egg/v-img/sheep1.png) no-repeat;
+  background-size: 100% 100% ;
+}
+
+.timu1{
+  position: relative;
+  font-size: 12px;
+  font-weight: bold;
+  top: -95px;
+  left: 180px;
+}
+
+.up1{
+  position: relative;
+  font-size: 10px;
+  font-weight: bold;
+  top: -95px;
+  left: 180px;
+  color: slategray;
+}
+
+.liulan1{
+  position: relative;
+  font-size: 10px;
+  font-weight: bold;
+  top: -95px;
+  left: 180px;
+  color: slategray;
+}
+
+.picture2{
+  position: relative;
+  height: 85px;
+  width: 160px;
+  border-radius: 5px;
+  background: url(../egg/v-img/miao.png) no-repeat;
+  background-size: 100% 100% ;
+}
+
+.timu2{
+  position: relative;
+  font-size: 12px;
+  font-weight: bold;
+  top: -95px;
+  left: 180px;
+}
+
+.up2{
+  position: relative;
+  font-size: 10px;
+  font-weight: bold;
+  top: -95px;
+  left: 180px;
+  color: slategray;
+}
+
+.liulan2{
+  position: relative;
+  font-size: 10px;
+  font-weight: bold;
+  top: -95px;
+  left: 180px;
+  color: slategray;
+}
+
+.picture3{
+  position: relative;
+  height: 85px;
+  width: 160px;
+  border-radius: 5px;
+  background: url(../egg/v-img/jpd.png) no-repeat;
+  background-size: 100% 100% ;
+}
+
+.timu3{
+  position: relative;
+  font-size: 12px;
+  font-weight: bold;
+  top: -95px;
+  left: 180px;
+}
+
+.up3{
+  position: relative;
+  font-size: 10px;
+  font-weight: bold;
+  top: -95px;
+  left: 180px;
+  color: slategray;
+}
+
+.liulan3{
+  position: relative;
+  font-size: 10px;
+  font-weight: bold;
+  top: -95px;
+  left: 180px;
+  color: slategray;
+}
+
+.picture4{
+  position: relative;
+  height: 85px;
+  width: 160px;
+  border-radius: 5px;
+  background: url(../egg/v-img/kk.jpg) no-repeat;
+  background-size: 100% 100% ;
+}
+
+.timu4{
+  position: relative;
+  font-size: 12px;
+  font-weight: bold;
+  top: -95px;
+  left: 180px;
+}
+
+.up4{
+  position: relative;
+  font-size: 10px;
+  font-weight: bold;
+  top: -95px;
+  left: 180px;
+  color: slategray;
+}
+
+.liulan4{
+  position: relative;
+  font-size: 10px;
+  font-weight: bold;
+  top: -95px;
+  left: 180px;
+  color: slategray;
+}
+
+.picture5{
+  position: relative;
+  height: 85px;
+  width: 160px;
+  border-radius: 5px;
+  background: url(../egg/v-img/niba.jpg) no-repeat;
+  background-size: 100% 100% ;
+}
+
+.timu5{
+  position: relative;
+  font-size: 12px;
+  font-weight: bold;
+  top: -95px;
+  left: 180px;
+}
+
+.up5{
+  position: relative;
+  font-size: 10px;
+  font-weight: bold;
+  top: -95px;
+  left: 180px;
+  color: slategray;
+}
+
+.liulan5{
+  position: relative;
+  font-size: 10px;
+  font-weight: bold;
+  top: -95px;
+  left: 180px;
+  color: slategray;
+}
+
+.bofang{
+  position: relative;
+  left: 80px;
+  top: -80px;
+}
+
+.bofang1{
+  position: relative;
+  left: -80px;
+  top: 30px;
+}
+
+.bofang2{
+  position: relative;
+  left: -240px;
+  top: 135px;
+}
+
+.bofang3{
+  position: relative;
+  left: -400px;
+  top: 250px;
+}
+
+.bofang4{
+  position: relative;
+  left: -560px;
+  top: 360px;
+}
+
+.bofang5{
+  position: relative;
+  left: -720px;
+  top: 470px;
 }
