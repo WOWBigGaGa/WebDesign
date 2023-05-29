@@ -15,6 +15,7 @@ body {
   /* width: 1600px; */
   background: #ffffff;
   font-family: "幼圆";
+  width: 910px;
 }
 
 .body-0{
@@ -34,8 +35,8 @@ body {
 
 .gradient-border {
   position: relative;
-  top: 85px;
-  left: 345px;
+  top: 55px;
+  left: 703px;
   --borderWidth: 3px;
   background: #1D1F20;
   position: relative;
@@ -87,7 +88,7 @@ body {
 }
 
 ul.slides{
-  width: 1600px;
+  width: 1585px;
   height: 52.5px;
   /* overflow: hidden; */
   position: absolute;
@@ -176,7 +177,7 @@ p{
 .watch{
   position: absolute;
   top: 105px;
-  left: 140px;
+  left: 210px;
   margin: 10px 0 10px 0;
   color: rgb(150, 149, 149);
   font-size: 14px;
@@ -186,7 +187,7 @@ p{
 h2{
   position: absolute;
   top: 80px;
-  left: 140px;
+  left: 210px;
   margin: 10px 0 10px 0;
 }
 
@@ -195,7 +196,7 @@ h2{
   align-items: left;
   padding: 0 0 10px 0;
   top: 590px;
-  left: 130px;
+  left: 200px;
   height: 50px;
   width: 805px;
   box-shadow: 0px 5px 10px 1px rgba(233, 233, 233, 1.3);
@@ -321,62 +322,152 @@ h2{
 
 .introduce{
   position: relative;
-  top: -210px;
-  left: 1160px;
+  top: -235px;
+  left: 1500px;
 }
 
 .dtb{
   position: relative;
   height: 28px;
   width: 28px;
-  top: -345px;
-  left: 323px;
+  top: -367px;
+  left: 694px;
   z-index: 1000000000000;
+}
+
+.dtb:hover{
+  animation: jumpBoxHandler .4s ;/* 1.8s 事件完成时间周期 infinite无限循环 */
+}
+@keyframes jumpBoxHandler { /* css事件 */
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(0px, -10px); /* 可配置跳动方向 */
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
 }
 
 .xf{
   position: relative;
   height: 28px;
   width: 28px;
-  top: -345px;
-  left: 354px;
+  top: -367px;
+  left: 726px;
   z-index: 1000000000000;
+}
+
+.xf:hover{
+  animation: jumpBoxHandler .4s ;/* 1.8s 事件完成时间周期 infinite无限循环 */
+}
+@keyframes jumpBoxHandler { /* css事件 */
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(0px, -10px); /* 可配置跳动方向 */
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
 }
 
 .dt{
   position: relative;
   height: 28px;
   width: 28px;
-  top: -345px;
-  left: 380px;
+  top: -367px;
+  left: 750px;
   z-index: 1000000000000;
+}
+
+.dt:hover{
+  animation: jumpBoxHandler .4s ;/* 1.8s 事件完成时间周期 infinite无限循环 */
+}
+@keyframes jumpBoxHandler { /* css事件 */
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(0px, -10px); /* 可配置跳动方向 */
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
 }
 
 .star{
   position: relative;
   height: 28px;
   width: 28px;
-  top: -345px;
-  left: 403px;
+  top: -367px;
+  left: 774px;
   z-index: 1000000000000;
+}
+
+.star:hover{
+  animation: jumpBoxHandler .4s ;/* 1.8s 事件完成时间周期 infinite无限循环 */
+}
+@keyframes jumpBoxHandler { /* css事件 */
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(0px, -10px); /* 可配置跳动方向 */
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
 }
 
 .time{
   position: relative;
   height: 28px;
   width: 28px;
-  top: -345px;
-  left: 428px;
+  top: -367px;
+  left: 799px;
   z-index: 1000000000000;
+}
+
+.time:hover{
+  animation: jumpBoxHandler .4s ;/* 1.8s 事件完成时间周期 infinite无限循环 */
+}
+@keyframes jumpBoxHandler { /* css事件 */
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(0px, -10px); /* 可配置跳动方向 */
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
 }
 
 .bulb{
   position: relative;
   height: 28px;
   width: 28px;
-  top: -345px;
-  left: 464px;
+  top: -367px;
+  left: 837px;
   z-index: 1000000000000;
+}
+
+.bulb:hover{
+  animation: jumpBoxHandler .4s ;/* 1.8s 事件完成时间周期 infinite无限循环 */
+}
+@keyframes jumpBoxHandler { /* css事件 */
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(0px, -10px); /* 可配置跳动方向 */
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
 }
 
 .dianzan{
@@ -655,36 +746,50 @@ p.zhuanfa{
 
 .bofang{
   position: relative;
-  left: 80px;
-  top: -80px;
+  left: 450px;
+  top: -120px;
 }
 
 .bofang1{
   position: relative;
-  left: -80px;
-  top: 30px;
+  left: 290px;
+  top: -10px;
 }
 
 .bofang2{
   position: relative;
-  left: -240px;
-  top: 135px;
+  left: 130px;
+  top: 100px;
 }
 
 .bofang3{
   position: relative;
-  left: -400px;
-  top: 250px;
+  left: -30px;
+  top: 210px;
 }
 
 .bofang4{
   position: relative;
-  left: -560px;
-  top: 360px;
+  left: -190px;
+  top: 320px;
 }
 
 .bofang5{
   position: relative;
-  left: -720px;
-  top: 470px;
+  left: -350px;
+  top: 430px;
+}
+
+.hr{
+  position: absolute;
+  width: 800px;
+  left: 200px;
+  border: rgb(230, 230, 230) 1px solid;
+  top: 710px;
+}
+
+.sanlian{
+  position: absolute;
+  left: 70px;
+  top: 0px;
 }
