@@ -4,7 +4,8 @@
 }
 
 html, body {
-  height: 100%;
+  height: 100% auto;
+  width: 100% auto;
 }
 
 body {
@@ -15,7 +16,7 @@ body {
   /* width: 1600px; */
   background: #ffffff;
   font-family: "幼圆";
-  width: 910px;
+
 }
 
 .body-0{
@@ -35,8 +36,8 @@ body {
 
 .gradient-border {
   position: relative;
-  top: 55px;
-  left: 703px;
+  top: 155px;
+  left: 373px;
   --borderWidth: 3px;
   background: #1D1F20;
   position: relative;
@@ -77,6 +78,11 @@ body {
   padding: 0;
   left: 10px;
   top: 5px;
+}
+
+.logo img{
+  height: 100%;
+  width: 100%;
 }
 
 .touxiang{
@@ -322,16 +328,16 @@ h2{
 
 .introduce{
   position: relative;
-  top: -235px;
-  left: 1500px;
+  top: -135px;
+  left: 1170px;
 }
 
 .dtb{
   position: relative;
   height: 28px;
   width: 28px;
-  top: -367px;
-  left: 694px;
+  top: -270px;
+  left: 364px;
   z-index: 1000000000000;
 }
 
@@ -354,8 +360,8 @@ h2{
   position: relative;
   height: 28px;
   width: 28px;
-  top: -367px;
-  left: 726px;
+  top: -270px;
+  left: 396px;
   z-index: 1000000000000;
 }
 
@@ -378,8 +384,8 @@ h2{
   position: relative;
   height: 28px;
   width: 28px;
-  top: -367px;
-  left: 750px;
+  top: -270px;
+  left: 420px;
   z-index: 1000000000000;
 }
 
@@ -402,8 +408,8 @@ h2{
   position: relative;
   height: 28px;
   width: 28px;
-  top: -367px;
-  left: 774px;
+  top: -270px;
+  left: 444px;
   z-index: 1000000000000;
 }
 
@@ -426,8 +432,8 @@ h2{
   position: relative;
   height: 28px;
   width: 28px;
-  top: -367px;
-  left: 799px;
+  top: -270px;
+  left: 469px;
   z-index: 1000000000000;
 }
 
@@ -450,8 +456,8 @@ h2{
   position: relative;
   height: 28px;
   width: 28px;
-  top: -367px;
-  left: 837px;
+  top: -270px;
+  left: 507px;
   z-index: 1000000000000;
 }
 
@@ -746,38 +752,38 @@ p.zhuanfa{
 
 .bofang{
   position: relative;
-  left: 450px;
-  top: -120px;
+  left: 120px;
+  top: -20px;
 }
 
 .bofang1{
   position: relative;
-  left: 290px;
-  top: -10px;
+  left: -40px;
+  top: 90px;
 }
 
 .bofang2{
   position: relative;
-  left: 130px;
-  top: 100px;
+  left: -200px;
+  top: 200px;
 }
 
 .bofang3{
   position: relative;
-  left: -30px;
-  top: 210px;
+  left: -360px;
+  top: 310px;
 }
 
 .bofang4{
   position: relative;
-  left: -190px;
-  top: 320px;
+  left: -520px;
+  top: 420px;
 }
 
 .bofang5{
   position: relative;
-  left: -350px;
-  top: 430px;
+  left: -680px;
+  top: 530px;
 }
 
 .hr{
@@ -792,4 +798,12 @@ p.zhuanfa{
   position: absolute;
   left: 70px;
   top: 0px;
+}
+
+.jj{
+  position: absolute;
+  width: 800px;
+  top: 730px;
+  left: 210px;
+  padding: -10px;
 }
